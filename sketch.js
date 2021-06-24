@@ -87,7 +87,7 @@ function draw() {
   
       var arrow = new PlayerArrow(posX, posY, 100, 10);
   
-      arrow.trajectory = [];
+    //  arrow.trajectory = [];
       Matter.Body.setAngle(arrow.body, angle);
       playerArrows.push(arrow);
   
